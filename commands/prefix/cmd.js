@@ -31,7 +31,7 @@ module.exports = {
                 }
             );
 
-            return message.reply("<:check:1497479710479749151> **Successfully** ran command.");
+            return message.reply("<:seattle_check:1514866360143052820> **Successfully** ran command.");
 
         } catch (err) {
 
