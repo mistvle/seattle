@@ -12,10 +12,7 @@ module.exports = {
                  // 🔒 OPTIONAL PERMS
            
                  if (!message.member.permissions.has("Administrator")) {
-                   return message.reply({
-                     content: "<:seattle_xmark:1514866385703141506> You do not have permission to run this command.",
-                     ephemeral: true
-                   });
+                   return message.reply("<:seattle_xmark:1514866385703141506> You do not have permission to run this command.");
                  }
            
                  try {
@@ -31,16 +28,10 @@ module.exports = {
                      }
                    );
            
-                   return message.reply({
-                     content: `<:check:1497479710479749151> **Successfully** ran command.`,
-                     ephemeral: true
-                   });
+                   return message.reply(`<:check:1497479710479749151> **Successfully** ran command.`);
            
                  } catch (err) {
-                   return message.reply({
-                     content: "<:seattle_xmark:1514866385703141506> An error occurred.",
-                     ephemeral: true
-                   });
+                   return message.reply("<:seattle_xmark:1514866385703141506> An error occurred.");
                  }
            
                }
