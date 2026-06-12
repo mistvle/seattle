@@ -45,6 +45,8 @@ module.exports = {
       ]
     }
   ]
-})
+});
+
+    await interaction.reply({content: "<:seattle_check:1514866360143052820> **Successfully** requested for more staff in-game."})
     }
 }
